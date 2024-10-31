@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 90vh;
+}
+
+.window {
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: #00000080;
+  position: fixed;
+  top: 0;
+}
+
+.auth-block {
+  padding: 40px 53px;
+  width: 250px;
+  height: 540px;
+  background: #000000c1;
+  margin: 74px auto;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 28px;
+}
+.auth-block .main-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  background: rgba(21, 20, 19, 0.725);
+  border: 0.5px solid #5f5f5f;
+  border-radius: 3px;
+}
+
+.main-input::placeholder {
+  padding-left: 11px;
+  color: #b9b9b8;
+}
+.auth-block .btn-red {
+  width: 100%;
+  background: #e50815;
+  height: 32px;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+}
+
+.auth-block .btn-gray {
+  width: 100%;
+  background: rgba(72, 72, 72, 0.632);
+  height: 32px;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+}
+
+.auth-block p {
+  margin: 7.5px 0;
+  text-align: center;
+  color: #b9b9b8d8;
+}
+
+.forgot-password {
+  padding: 14px 0;
+  text-align: center;
+}
+
+.forgot-password a {
+  color: #ffffffed;
+  font-size: 13px;
+}
+
+.auth-block span {
+  color: #ffffffed;
+  font-size: 13px;
+  padding: 0 5px;
+}
+
+.auth-block .register-now {
+  padding: 4px 0 12px 0;
+  font-size: 13px;
+  color: #ffffffaa;
+  text-align: start;
+}
+
+.auth-block .register-now a {
+  color: #ffffff;
+}
+
+.auth-block .google-page {
+  font-size: 11px;
+  text-align: start;
+}
+
+.auth-block .google-page a {
+  color: blue;
+}
